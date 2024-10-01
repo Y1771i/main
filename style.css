@@ -1,0 +1,460 @@
+* {
+      padding: 0;
+      margin: 0;
+}
+
+body {
+      font-family: 'TT Hoves', sans-serif;
+      color: #222;
+}
+
+section {
+      padding: 0 calc(24px + (121 - 24) * ((100vw - 375px) / (1280 - 375)));
+      margin-bottom: calc(60px + (160 - 60) * ((100vw - 375px) / (1280 - 375)));
+}
+
+
+/* Page 1 */
+section.hello {
+      padding-top: 40px;
+      background-image: url('./img/html_css_js.png');
+      background-repeat: no-repeat;
+      background-position: top calc(77px + (121 - 77) * ((100vw - 375px) / (1280 - 375))) left calc(193px + (827 - 193) * ((100vw - 375px) / (1280 - 375)));
+      background-size: calc(179px + (395 - 179) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.logo {
+      height: calc(30px + (41 - 30) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.courseInfo {
+      display: flex;
+      gap: 30px 160px;
+      flex-wrap: wrap;
+      margin-top: calc(28px + (85 - 28) * ((100vw - 375px) / (1280 - 375)));
+      margin-bottom: calc(48px + (76 - 48) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.courseData {
+      font-size: calc(16px + (21 - 16) * ((100vw - 375px) / (1280 - 375)));
+      line-height: 140%;
+}
+
+.courseData .value {
+      font-weight: 700;
+}
+
+h1 {
+      font-family: 'Chava', sans-serif;
+      font-size: calc(42px + (80 - 42) * ((100vw - 375px) / (1280 - 375)));
+      line-height: 100%;
+}
+
+p {
+      margin-top: calc(20px + (40 - 20) * ((100vw - 375px) / (1280 - 375)));
+      font-size: calc(18px + (27 - 18) * ((100vw - 375px) / (1280 - 375)));
+      font-weight: 300;
+      line-height: 140%;
+      width: calc(328px + (930 - 328) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.cta {
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px 30px;
+}
+
+button {
+      width: 328px;
+      padding: 20px 0px;
+      border-radius: 12px;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 117%;
+}
+
+button.purple {
+      background: #6e3aba;
+      color: white;
+      border: 1px solid #6e3aba;
+}
+
+button.white {
+      background: white;
+      color: #6e3aba;
+      border: 1px solid #6e3aba;
+}
+
+
+
+
+/* Page 2 */
+h2 {
+      font-size: calc(34px + (58 - 34) * ((100vw - 375px) / (1280 - 375)));
+      font-weight: 500;
+      margin-bottom: calc(40px + (90 - 40) * ((100vw - 375px) / (1280 - 375)));
+      text-transform: uppercase;
+      line-height: 117%;
+}
+
+.slayd2 h2 {
+      width: calc(35.6vw + 194.6px);
+}
+
+.infoAbout {
+      display: flex;
+      flex-wrap: wrap;
+      gap: calc(40px + (52 - 40) * ((100vw - 375px) / (1280 - 375))) 70px;
+}
+
+.speciality {
+      width: calc(328px + (450 - 328) * ((100vw - 375px) / (1280 - 375)));
+      font-size: calc(18px + (27 - 18) * ((100vw - 375px) / (1280 - 375)));
+      line-height: 140%;
+}
+
+.picture {
+      width: calc(180px + (210 - 180) * ((100vw - 375px) / (1280 - 375)));
+      margin-bottom: 10px;
+}
+
+.specialityName {
+      font-weight: 600;
+}
+
+.specialityInfo {
+      font-weight: 400;
+      margin-top: calc(10px + (20 - 10) * ((100vw - 375px) / (1280 - 375)));
+}
+
+
+
+/* Page 3 and 11 (timer)*/
+.saleContainer {
+      background-color: #6E3ABA;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: calc(4.4vw + 23px) 0 calc(5.3vw + 20px);
+}
+
+h3 {
+      color: white;
+      font-size: calc(2vw + 26.5px);
+      margin-bottom: calc(4.1vw + 4.7px);
+      text-align: center;
+}
+
+.time {
+      display: flex;
+      gap: calc(0.3vw - 8.2px);
+      margin-bottom: calc(4vw + 6px);
+}
+
+.time h2 {
+      margin-bottom: 0;
+}
+
+.date, .date2 {
+      font-size: calc(13.1vw + 5.7px);
+      font-family: "Chava";
+      font-weight: 400;
+}
+
+.colon::after {
+      content: ":";
+}
+
+.timeCard {
+      display: block;
+      text-align: center;
+      font-size: calc(1.9vw + 3px);
+}
+
+
+/* Page 4 */
+.infoContainer {
+      display: flex;
+      flex-wrap: wrap;
+      gap: calc(20px + (51 - 20) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.infoCard {
+      width: calc(328px + (399 - 328) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.infoCard img {
+      width: 100%;
+}
+
+.infoBox {
+      width: calc(328px + (590 - 328) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.infoBox p {
+      width: calc(328px + (566 - 328) * ((100vw - 375px) / (1280 - 375)));
+      font-size: calc(18px + (27 - 18) * ((100vw - 375px) / (1280 - 375)));
+      font-weight: 400;
+      line-height: 150%;
+}
+
+h4 {
+      font-size: calc(36px + (48 - 36) * ((100vw - 375px) / (1280 - 375)));
+      font-weight: 700;
+      line-height: 120%;
+}
+
+.legendSkills {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      row-gap: calc(30px + (40 - 30) * ((100vw - 375px) / (1280 - 375)));
+      column-gap: calc(10px + (90 - 10) * ((100vw - 375px) / (1280 - 375)));
+      margin-top: calc(40px + (90 - 40) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.skill img {
+      width: 36px;
+}
+
+.skill span {
+      display: block;
+      margin-top: 10px;
+      font-size: calc(16px + (21 - 16) * ((100vw - 375px) / (1280 - 375)));
+      line-height: 140%;
+}
+
+
+/* Page 5 */
+.infoText {
+      display: flex;
+      flex-wrap: wrap;
+      gap: calc(2.4vw + 20.9px) 120px;
+}
+
+.infoText_box {
+      width: calc(8vw + 298.2px);
+      font-size: calc(18px + (27 - 18) * ((100vw - 375px) / (1280 - 375)));
+      line-height: 140%;
+}
+
+.boxName {
+      font-weight: 600;
+}
+
+.boxInfo {
+      font-weight: 400;
+      margin-top: calc(10px + (20 - 10) * ((100vw - 375px) / (1280 - 375)));
+}
+
+
+/* Page 6 */
+.frameBox {
+      border: 2px solid black;
+      padding:
+            calc(40px + (80 - 40) * ((100vw - 375px) / (1280 - 375))) calc(20px + (52 - 20) * ((100vw - 375px) / (1280 - 375))) calc(23px + (35 - 23) * ((100vw - 375px) / (1280 - 375)));
+      position: relative;
+}
+
+#corner {
+      width: calc(40px + (140 - 40) * ((100vw - 375px) / (1280 - 375)));
+      position: absolute;
+      top: -2px;
+      right: -2px;
+}
+
+.frameBox h2 {
+      margin: 0;
+}
+
+.lessons {
+      margin-top: calc(24px + (40 - 24) * ((100vw - 375px) / (1280 - 375)));
+      margin-bottom: calc(23px + (34 - 23) * ((100vw - 375px) / (1280 - 375)));
+      list-style-type: none;
+}
+
+.lessons li {
+      border-bottom: 1px solid #a1a1a1;
+      padding: 24px 0;
+      font-size: calc(16px + (21 - 16) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.lessons li:first-child {
+      padding-top: 0;
+}
+
+.frame button {
+      display: block;
+      margin: 0 auto;
+}
+
+.mobile {
+      display: none !important;
+}
+
+
+
+
+/* Page 7 */
+.diplomBox {
+      display: grid;
+      grid-template-columns: 10fr 14fr;
+      gap: 20px;
+}
+
+.column_1 {
+      grid-row: 1 / 3;
+}
+
+.column_1 img {
+      width: 100%;
+}
+
+.column_2 h2 {
+      margin: 0;
+      width: 100%;
+}
+
+.column_3 p {
+      margin: 0;
+      font-weight: 400;
+      width: calc(328px + (514 - 328) * ((100vw - 375px) / (1280 - 375)));
+}
+
+
+
+
+/* Page 8 */
+.salaryBox h2 {
+      width: calc(328px + (729 - 328) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.salaryBox p {
+      margin-bottom: calc(20px + (36 - 20) * ((100vw - 375px) / (1280 - 375)));
+      width: calc(328px + (876 - 328) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.salaryBox img {
+      width: calc(328px + (1065 - 328) * ((100vw - 375px) / (1280 - 375)));
+}
+
+
+
+/* Page 9 */
+.slayd9 h2 {
+      margin-bottom: calc(20px + (30 - 20) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.studentCo {
+      display: flex;
+      flex-wrap: wrap;
+}
+
+.studentImg img {
+      width: calc(328px + (579 - 328) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.studentImg img {
+      width: 100%;
+}
+
+.studentInfo {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px 0;
+      width: calc(328px + (500 - 328) * ((100vw - 375px) / (1280 - 375)));
+      margin-top: calc(20px + (50 - 20) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.student1 {
+      font-size: calc(18px + (21 - 18) * ((100vw - 375px) / (1280 - 375)));
+      font-weight: 400;
+      line-height: 116%;
+      width: 100%;
+}
+
+
+
+/* Page 10 */
+.lisense {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+}
+
+.slayd10 h2 {
+      margin-bottom: calc(20px + (40 - 20) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.earthColum {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: calc(328px + (335 - 328) * ((100vw - 375px) / (1280 - 375)));
+      padding: 50px 20px 40px;
+      border-radius: 12px;
+      background: #F0F7FD;
+}
+
+.ColumText p {
+      margin-top: 8px;
+      font-size: 21px;
+      font-weight: 400;
+      line-height: 29.4px;
+      width: 100%;
+}
+
+.ColumText img {
+      width: 38px;
+}
+
+.student {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-top: 10px;
+}
+
+.student img {
+      width: 72px;
+      border-radius: 50%;
+}
+
+.studentInfo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      font-size: 21px;
+      font-weight: 400;
+}
+
+
+
+
+@media (max-width: 600px) {
+      .mobile {
+            display: block !important;
+      }
+
+      .desktop {
+            display: none !important;
+      }
+
+      .frame button {
+            margin-top: 30px;
+      }
+
+      .lessons li:last-child {
+            border: 0;
+            padding-bottom: 0;
+      }
+
+      .diplomBox {
+            grid-template-columns: 1fr;
+      }
+
+      .column_1 {
+            grid-row: 2 / 3;
+      }
+}
